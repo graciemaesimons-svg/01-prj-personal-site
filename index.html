@@ -4,8 +4,52 @@
   <meta charset="UTF-8">
   <title>My Personal Site</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=javascript" />
 </head>
 <body>
-  <!-- Add your HTML content here -->
+  <!-- Navigation Bar -->
+  <nav id="navbar">
+    <ul>
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <img id="hero-photo" src="img/Gracie.png" alt="Profile Photo">
+    <p>Hi, I'm <span class="name">Gracie Simons</span>, a Junior UX Design & web development student passionate about creating amazing websites.</p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>My Skills</h2>
+    <ul>
+      <li><i class="fa-solid fa-code"></i> HTML</li>
+      <li><i class="fa-solid fa-code"></i> CSS</li>
+      <li><span class="material-symbols-outlined">javascript</span> JavaScript</li>
+      <li><i class="fa-solid fa-desktop"></i> Responsive Design</li>
+      <li><i class="fa-solid fa-code-branch"></i> UI/UX Design</li>
+      <li><i class="fa-brands fa-wordpress"></i> Wordpress</li>
+      <li><img src="https://img.icons8.com/color/48/000000/adobe-dreamweaver.png" alt="Dreamweaver" style="width:20px; height:20px; vertical-align:middle;"> Adobe Dreamweaver</li>
+
+
+    </ul>
+  </section>
+
+  <!-- Contact Me Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: simonsgm@dukes.jmu.edu</p>
+    <p>Phone: (925) 998-8084</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/graciesimons05/" target="_blank">https://www.linkedin.com/in/graciesimons05/</a></p>
+  </section>
 </body>
+<script>
+  window.onload = function() {
+    window.scrollTo(0, 0);
+  };
+</script>
 </html>
